@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    display: flex;
+}
+.counter *{
+
+    width: 25%;
+    height: 20px;
+}
+.counter button{
+    border: none;
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.counter input{
+    width: 34%;
+    border: solid 2px black;
+    text-align: center;
+}
+
